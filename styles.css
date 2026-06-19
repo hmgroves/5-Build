@@ -68,11 +68,25 @@ img {
     width:100%;
 }
 
-#screenings, #workshops, #collaborations {
+#screenings, #workshops, #collaborations, #showings, #calender, #join {
     background-color: #1e293b;
     padding: 1rem;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
+}
+
+#join a {
+    display:block;
+    background-color: #38bdf8;
+    color:#1e293b;
+    padding:1rem 2rem;
+    text-decoration:none;
+    text-align:center;
+}
+
+#join a:hover {
+    color:#020617;
+    background-color:#e2e8f0;
 }
 
 aside {
@@ -123,7 +137,6 @@ footer {
     }
     .card-row {
         display: flex;
-        /*justify-content: space-between;*/
     }
     .card-row section {
         width: 30%;
